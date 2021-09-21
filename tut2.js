@@ -14,4 +14,4 @@ console.timeEnd('Your code took:')// It will tell how much time does the code to
 let age = 330
 console.assert(age>189 , "This is not possible")// It will give this statement if age is less than 189;
 // Agar left wali condition TRUE h to thik h nhi to right side wali statement print kar do
-// IT WILL PRINT - Assertion Failed
+// IT WILL PRINT - Assertion Failed - if the condition before it is not met, here 330>189 so it won't print anything.
