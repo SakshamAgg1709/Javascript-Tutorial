@@ -34,6 +34,8 @@ console.log(html.endsWith("44"))//false - No, it doesn't end with 44"
 console.log(html.includes("heading"))//true - Yes, it includes  heading"
 console.log(html.substring(1, 5)) // It will give 1,2,3,4 - not 5
 console.log(html.slice(0, 5))// Return characters from 0 to 4 index
+console.log(html.slice(1))//Return whole string after 0th index i.e. first character missing
+console.log(html.slice(0))//Return whole string 
 console.log(html.slice(-4))// Return LAst 4 character
 console.log(html.split(" "))// Return a array with 7 elements
 console.log(html.split(">"))// Return a array with 4 elements
