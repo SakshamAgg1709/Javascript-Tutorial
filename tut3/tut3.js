@@ -27,7 +27,7 @@ console.log(city);
 const ownersName = 'Saksham'
 // ownersName = 'Harry'//It will give error, you cannot change const
 console.log(ownersName)
-const fruit = 33; //Cannot do this
+const fruit = 33;
 console.log(fruit)
 
 // let - has a block level scope 
@@ -43,7 +43,7 @@ console.log(city);
 
 const arr1 = [12, 23, 12, 53, 3];
 // arr1 = [233, 44,4] this is not permitted
-// arr1.push(45);
+arr1.push(45);
 console.log(arr1)
 
 
