@@ -15,7 +15,7 @@ Reference in JavaScript are datatypes based on primitive. Like Objects, Arrays, 
 let name = "Saksham";
 console.log("My string is " + name);
 console.log("Datatype is " + (typeof name));
-console.log("Datatype is " + typeof(name));//Both are same 
+console.log("Datatype is     " + typeof(name));//Both are same 
 
 //Number
 
@@ -47,6 +47,7 @@ console.log("Datatype is " + (typeof undef));
 //Array
 
 myarr = [33, "34", false, 'string']
+console.log("Entered data is " + myarr)
 console.log("Datatype of the entered data is " + (typeof myarr))// Result will be object
 
 //Object Literals
@@ -69,4 +70,5 @@ function findName(){
 console.log("Datatype of the function made is " + (typeof findName))
 
 let date = new Date();
+console.log(date)
 console.log("Datatype of the entered date is " + (typeof date))
