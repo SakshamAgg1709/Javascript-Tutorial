@@ -20,7 +20,7 @@ let date = String(new Date())
 console.log(date, typeof date)
 
 let arr = String([1,2,3,4,5,6]);
-console.log(arr.length, (typeof arr))//Length includes comma also
+console.log(arr,arr.length, (typeof arr))//Length includes comma also
 
 let i = 8;
 console.log(i.toString())// It is same as String(i)
