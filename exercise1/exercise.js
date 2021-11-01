@@ -16,7 +16,7 @@ let href;
 htmlDoc = document.getElementById("links")
 Array.from(links).forEach(function (element) {
     href = element.href;
-    // console.log(href)
+    console.log(href)
     if (href.includes(str)){
         console.log(href)
         htmlDoc.innerHTML = href
