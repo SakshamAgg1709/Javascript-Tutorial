@@ -28,7 +28,7 @@ console.log("element :", arrelement)
 let value = marks.indexOf(66)
 let value2 = marks.indexOf(2)
 console.log(value)
-console.log(value2)// It will print -1
+console.log(value2)// It will print -1 because there is no 2 in marks
 
 marks.push(3333)//End mein push kar do ya add kar do
 console.log(marks)
@@ -50,8 +50,9 @@ marks.reverse()
 console.log(marks)
 
 let marks2 = [2,11,3,2]
-marks = marks.concat(marks2)// Concat requires defining the marks = something -  Combines two or more arrays. This method returns a new array without modifying any existing arrays.
-console.log(marks)
+marks3 = marks.concat(marks2)// Concat requires defining the marks = something -  Combines two or more arrays. This method returns a new array without modifying any existing arrays.
+console.log(marks)//Original array didn't change
+console.log(marks3)
 
 let  myObj = {
     name:'Saksham Aggarwal',

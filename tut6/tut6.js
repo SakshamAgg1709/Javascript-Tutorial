@@ -12,7 +12,7 @@ let html;
 html = "<h1>This is a heading" + "<p>This is a paragraph</p>"
 // html = html.concat('this','that')//You cann add as much strings as you want at the end of the sting 
 // console.log(html)
-// console.log(html.length)//Start with 0 only
+// // console.log(html.length)//Start with 0 only
 // console.log(html.toLocaleLowerCase())
 // console.log(html.toLocaleUpperCase())
 // console.log(html)//It doesn't change original string
