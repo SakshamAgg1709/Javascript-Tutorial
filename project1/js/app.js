@@ -18,6 +18,10 @@ addBtn.addEventListener("click", function (e) {
   showNotes();
 });
 
+//Adding title to the notes
+
+
+
 // Function to show elements from localStorage
 function showNotes() {
   let notes = localStorage.getItem("notes");
@@ -27,12 +31,13 @@ function showNotes() {
   } else {
     notesObj = JSON.parse(notes);
   }
+  let addTitle = document.querySelector('#addTitle');
   let html = "";
-  notesObj.forEach(function (element, index) {//notes is an array
+  notesObj.forEach(function (element, index, addTitle) {//notes is an array
     html += `
               <div class="noteCard my-2 mx-2 card" style="width: 18rem;">
                       <div class="card-body">
-                          <h5 class="card-title">Note ${index + 1}</h5>
+                          <h5 class="card-title">Note ${index+1}</h5>
                           <p class="card-text"> ${element}</p>
                           <button id="${index}"onclick="deleteNote(this.id)" class="btn btn-primary">Delete Note</button>
                       </div>
