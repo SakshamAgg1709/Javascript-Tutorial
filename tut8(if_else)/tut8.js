@@ -58,7 +58,7 @@ else{
 
 console.log( age == 13?'Age is 13':'Age is not 13' )//Shorthand property - ? mark is important symbol of then
 
-switch (age) {
+switch (age) {// Take age and check all the cases
     case 18:
         console.log("You are 18")
         break;
