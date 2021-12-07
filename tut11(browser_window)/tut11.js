@@ -10,8 +10,8 @@ let a = window.document;// Window Object is global in Client Side Javascript
 // a = prompt("This will destroy your computer, Type your name")// Whatever we write in Prompt is saved in the variable a and is printed in console
 // console.log(a)
 
-// a = confirm("Are you sure you want to open this page")
-// console.log(a);
+a = confirm("Are you sure you want to open this page")
+console.log(a);
 
 // Nowadays we don't use alert, confirm or prompt - we use CSS and other Javascript Methods-
 
