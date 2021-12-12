@@ -18,7 +18,7 @@ Array.from(c).forEach(function(element){
 console.log(element);
 });
 
-let b=document.script;
+let b=document.scripts;
 Array.from(b).forEach(function(element){
 console.log(element);
 })

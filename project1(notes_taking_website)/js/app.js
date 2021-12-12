@@ -69,7 +69,7 @@ function deleteNote(index) {// It is called in html varible in shownotes functio
     notesObj = JSON.parse(notes);
   }
 
-  notesObj.splice(index, 1)
+  notesObj.splice(index, 1)//kisi ek indx se sirf 1 element delete kar do 
   localStorage.setItem("notes", JSON.stringify(notesObj));
   showNotes()
 }
